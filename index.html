@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Landing Page</title>
+</head>
+
+<body>
+	<nav>
+		<div class="heading">Landing Page</div>
+		<span class="sideMenuButton"
+			onclick="openNavbar()">
+			☰
+		</span>
+
+		<div class="navbar">
+			<ul>
+				<li><a href="#Home">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Sign Up</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Side navigation bar for
+		responsive website -->
+	<div class="sideNavigationBar"
+		id="sideNavigationBar">
+		<a href="#" class="closeButton"
+			onclick="closeNavbar()">
+			
+		</a>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Sign Up</a>
+	</div>
+
+	<!-- Content -->
+	<div class="line" id="Home">
+		<div class="side1">
+			<h1>Artificial Intiligence</h1>
+			<button>
+				<a href=
+"https://www.ibm.com/">
+					Explore More
+				</a>
+			</button>
+		</div>
+		<div class="side2">
+			<img src=
+"https://www.wardsauto.com/sites/wardsauto.com/files/styles/article_featured_retina/public/AI%20photo_0.jpg?itok=0pJRciFN"
+				width="650">
+		</div>
+	</div>
+
+	<section class="about" id="My Projects">
+    <div class="content">
+        <div class="title">
+            <span>Features</span>
+        </div>
+        <div class="boxes">
+            <div class="box">
+                <div class="topic">
+                    <a href="" target="_blank">
+                        Eliminate Dull and Boring Tasks
+                    </a>
+                </div>
+                <p>
+                    An artificially intelligent system will do
+                     and continue doing the task as commanded
+                      to it, no matter how many times it has to
+                      do it. Also, such systems only make tedious, 
+                      vast tasks easier for the users.
+                 </p>
+            </div>
+            <div class="box">
+
+                <div class="topic">
+                    <a href="" target="_blank">
+                        Data Ingestio
+                    </a>
+                </div>
+                <p>
+                    Data ingestion is one of the most important
+                     features of artificial intelligence.
+                      Artificially intelligent systems deal 
+                      with huge amounts of data.
+                </p>
+            </div>
+
+            <div class="box">
+                <div class="topic">
+                    <a href="" target="_blank">
+                        Imitates Human Cognition
+                    </a>
+                </div>
+                <p>
+                    Like the humans study their environment, 
+                    draw inferences, and then interact with it
+                     accordingly, an AI also successfully attempts
+                      to interpret the environment and act suitably.
+
+
+                </p>
+              </div>
+        </div>
+    </div>
+</section>
+
+	<section class="contact" id="contact">
+		<div class="content">
+			<div class="title"><span>Sign Up</span></div>
+			<div class="contactMenu">
+				<div class="input1">
+					<div class="label1">Your Name</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Name here">
+					</div>
+					<div class="label1">
+						<label>Your Email</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Email here">
+					</div>
+					<div class="label1">
+						<label>Your Password</label>
+					</div>
+					<div class="input2">
+						<input type="text"
+							placeholder="Enter your Password here">
+					</div>
+					<div class="button">
+						<button>Sign Up</button>
+					</div>
+				</div>
+				<div class="input3">
+					<div class="rightside1">
+						<div class="title1">
+              <span>Contact Us</span>
+						</div>
+						<div class="content1">
+							A-143, 10th Floor, 
+              Romeo-Juliet Tower,
+               Sector-136, 
+               Noida, 
+               Uttar Pradesh - 201305
+						</div>
+            </div>
+						<div class="title1">
+							<span>More Information</span>
+						</div>
+						<div class="content1">
+							AI has become a catchall term for applications
+                             that perform complex tasks that once required 
+                             human input, such as communicating with customers
+                              online or playing chess. The term is often
+                               used interchangeably with its subfields,
+                                which include machine learning (ML) and deep learning.
+                             There are differences, however. For example, machine 
+                             learning is focused on building systems that learn 
+                             or improve their performance based on the data they consume.
+                              It’s important to note that although all machine learning
+                               is AI, not all AI is machine learning.To get the full
+                                value from AI, many companies are making significant
+                                 investments in data science teams. Data science combines 
+                                 statistics, computer science, and business knowledge 
+                                 to extract value from various data sources
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer section -->
+	<footer>
+		<div class="footer">
+			<span>
+				Created By
+				<a href="https://www.ibm.com/"
+					target="_blank">
+					Artificial Intelligence
+				</a>
+			</span>
+		</div>
+	</footer>
+	<script src="script.js"></script>
+</body>
+
+</html>
